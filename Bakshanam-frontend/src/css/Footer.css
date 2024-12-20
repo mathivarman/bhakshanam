@@ -1,0 +1,68 @@
+/* Footer background with gradient */
+.footer {
+  background: linear-gradient(135deg, #67b26f 0%, #4ca2cd 100%); /* Blue to green gradient */
+  padding: 20px;
+  color: rgb(13, 13, 13); /* Ensures readability against the gradient background */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 10px;
+  color: rgb(23, 22, 22); /* White text for better contrast */
+}
+
+/* Footer logo styling */
+.footer-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: rgb(4, 4, 4); /* White logo for contrast */
+}
+
+/* Links section styling */
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #060606; /* Light gray for the links */
+}
+
+.footer-links a:hover {
+  color: #ff4081; /* Pinkish hover color for links */
+}
+
+/* Social icons styling */
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  font-size: 1.8rem;
+  color: #0b0b0b; /* Light gray color for the icons */
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #ff4081; /* Pinkish hover color for social icons */
+}
+
+/* Bottom part of the footer */
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  color: #0f0f0f; /* Light gray text */
+  font-size: 0.9rem;
+}

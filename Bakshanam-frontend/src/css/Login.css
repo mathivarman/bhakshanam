@@ -1,0 +1,22 @@
+/* Login.css */
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.login-container {
+  background-image: url('../img/5ef9d70b03d22b1acd145b9422d3a33f.gif'); /* Update the path to your image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-paper {
+  padding: 30px;
+  margin-top: 100px;
+  background-color: rgba(255, 255, 255, 0.9); /* Optional: Slightly transparent background for readability */
+  border-radius: 8px; /* Rounded corners */
+}

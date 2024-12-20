@@ -1,0 +1,66 @@
+body{
+  background-color: rgb(18, 13, 7);
+}
+.hero {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  padding: 50px;
+  width: 100vw;
+  background: url('./../img/DALL·E\ 2024-11-07\ 16.58.18\ -\ A\ clean\ white\ background\ with\ traditional\ South\ Indian\ and\ Sri\ Lankan\ breakfast\ foods\,\ such\ as\ idli\,\ dosai\,\ and\ string\ hoppers\,\ neatly\ arranged\ on\ one\ \(1\).webp') no-repeat center center fixed;  
+  height: 70vb;
+  background-size: cover;
+}
+
+.hero-content {
+  width: 45%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers content vertically inside hero-content */
+  align-items: center; /* Centers content horizontally */
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(21, 55, 65);
+  text-align: center; /* Ensures the heading text is centered */
+}
+
+.hero-content p {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color:  rgb(21, 55, 65);
+}
+
+.get-started-btn {
+  background-color: #f39c12;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .hero-content, .hero-images {
+    width: 100%;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+}

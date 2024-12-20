@@ -1,0 +1,72 @@
+/* Center the form and give some spacing around */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Style for the paper/card container */
+.MuiPaper-root {
+  background-color: #f9f9f9;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.MuiPaper-root:hover {
+  transform: scale(1.02);
+}
+
+/* Style for the text fields */
+.MuiTextField-root {
+  background-color: white;
+  border-radius: 4px;
+}
+
+.MuiInputBase-input {
+  padding: 12px;
+}
+
+/* Style for the submit button */
+.MuiButton-root {
+  background-color: #4caf50;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.MuiButton-root:hover {
+  background-color: #388e3c;
+}
+
+/* Typography styles for headers and messages */
+.MuiTypography-h4 {
+  text-align: center;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.MuiTypography-root {
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* Error and success messages */
+.MuiTypography-colorError {
+  color: red;
+}
+
+.MuiTypography-colorSuccess {
+  color: green;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .MuiPaper-root {
+      padding: 15px;
+      width: 90%;
+  }
+}
