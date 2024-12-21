@@ -125,10 +125,10 @@ const Footer = () => {
               <FaMapMarkerAlt style={styles.icon} /> Jaffna
             </p>
             <p style={styles.text}>
-              <FaPhone style={styles.icon} />  0754389795
+              <FaPhone style={styles.icon} />  0771005148
             </p>
             <p style={styles.text}>
-              <FaEnvelope style={styles.icon} />  daxd0524@gmail.com
+              <FaEnvelope style={styles.icon} />  mathivarman24mv@gmail.com
             </p>
           </div>
 
